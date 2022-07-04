@@ -18,3 +18,11 @@ print()
 list1 = list(tup)
 list1.append(7)
 print(list1)
+
+
+# Unpacking a tuple
+tup1 = ("Yash", "Arora", "yasharora1908@gmail.com")
+fname, lname, email = tup1
+print(fname)
+print(lname)
+print(email)
